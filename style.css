@@ -1,0 +1,755 @@
+/**************************LINK**************************/
+
+@import url('https://fonts.cdnfonts.com/css/amaz-stalker');
+@import url('https://fonts.cdnfonts.com/css/stalker');
+
+/**************************BASE**************************/
+
+/*html*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*body*/
+body {
+    margin: auto;
+}
+
+/*flex*/
+.flex {
+    display: flex;
+}
+
+/*flex-centré*/
+.centre {
+    justify-content: center;
+    align-items: center;
+}
+
+.colone {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+/*wrapper*/
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+/*h-*/
+h2, h3, h4, h5 {
+    font-family: "Anta", sans-serif;
+}
+
+/*h-2*/
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/*h-3*/
+h3 {
+    font-size: 23px;
+}
+
+/*h-4*/
+h4 {
+    font-size: 18px;
+}
+
+/*a*/
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/**************************HEADER**************************/
+
+/*image-arriere-plan*/
+header {
+    background-image: url(./images/beacon.jpg);
+    z-index: 1;
+    background-size: cover;
+    height: 700px;
+}
+
+/*sombre*/
+header .sombre {
+    background-color: #00000088;
+    z-index: 2;
+    height: 700px;
+}
+
+header .haut {
+    padding-top: 75px;
+}
+
+/*possition-nav*/
+header .haut, .block-lignes  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*les-lignes*/
+header .block-lignes {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/*ul*/
+header ul {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    font-family: "Anta", sans-serif;
+}
+
+/*li*/
+header li {
+    list-style: none;
+    color:#ffffff;
+}
+
+/*titre-nav*/
+header .ref {
+    color: rgb(255, 255, 255);
+    font-family: "Anta", sans-serif;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+/*liste*/
+header .liste {
+    margin-right: 20px;
+}
+
+/*li*/
+header .liste li {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/*contact*/
+header .cotact li {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+/*dexieme-contact*/
+header .cotact .deux {
+    margin-left: 35px;
+}
+
+/*logo*/
+header .logo i {
+    color: #ffffff;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+/*icones-orange*/
+header .logo .orange {
+    color: rgb(231, 106, 33);
+}
+header .orange {
+    color: rgb(231, 106, 33);
+}
+
+/**************************MAIN**************************/
+
+/**************Titre**************/
+
+.titre-centre {
+    margin-top: -520px;
+    height: 315px;
+}
+
+/*titre-centre*/
+.titre-centre .principale {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    margin: 0px;
+    margin-top: 170px;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+/*trait*/
+.titre-centre .principale:after {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: rgb(231, 106, 33);
+    margin: 0 auto;
+}
+
+/*box-p*/
+.titre-centre .box-1 {
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 17px;
+}
+
+/*le-p*/
+.titre-centre p {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(240, 240, 240);
+    font-family: "REM", sans-serif;
+    margin-top: 0px;
+}
+
+/*boutton*/
+.titre-centre .boutton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 106, 33);
+    border: none;
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 30px;
+    margin: 40px auto;
+}
+
+
+/**************ALICAM**************/
+
+/*arriere-plan*/
+.alicam {
+    background-color: rgb(255, 255, 255);
+    height: 420px;
+}
+
+/*h2*/
+.alicam h2 {
+    text-align: center;
+    margin: 80px 0px 65px 0px;
+}
+
+/*surligne*/
+.alicam h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: rgb(231, 106, 33);
+    margin: 10px auto;
+}
+
+/*position*/
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+/*direction-colone*/
+.colone {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 4px;
+}
+
+/*icone*/
+.alicam i {
+    color: rgb(231, 106, 33);
+    margin: 10px;
+    font-size: 30px;
+}
+
+/*h3*/
+.alicam h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.alicam p {
+    font-family: "REM", sans-serif;
+}
+
+/*link*/
+.alicam a {
+    color: rgb(231, 106, 33);
+    text-decoration: none;
+    font-family: "Anta", sans-serif;
+}
+
+/*boutton*/
+.alicam .boutton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 106, 33);
+    border: none;
+    font-family: "Anta", sans-serif;
+    margin-top: 35px;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 30px;
+    margin: 40px auto;
+}
+
+/**************NEW-1 / NEW-2**************/
+
+/*arriere-plan*/
+.new {
+    background-color:#e1e1e1;
+    height: 470px;
+}
+
+/*h2*/
+.new h2 {
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
+}
+
+/*soulignier*/
+.new h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: rgb(231, 106, 33);
+    margin: 10px auto;
+}
+
+/*space*/
+.new .wrapper {
+    justify-content: space-between;
+}
+
+/*num*/
+.new .num {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+    background-color: rgb(231, 106, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+/*taille-image*/
+.new img {
+    width: 273px;
+}
+
+/*blick-texte*/
+.new .block {
+    background-color: #ffffff;
+    width: 273px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*p*/
+.new p {
+    text-align: center;
+    margin: 0px;
+    font-family: "REM", sans-serif;
+}
+
+/*link*/
+.new a {
+    color: rgb(231, 106, 33);
+    text-decoration: none;
+}
+
+/*boutton*/
+.new .boutton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 106, 33);
+    border: none;
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 30px;
+    margin: 40px auto;
+}
+
+/**************NIGHT**************/
+
+/*image*/
+.night {
+    background-image: url(./images/night.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+/*zone-transparente*/
+.transparent {
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+/*block-text*/
+.night-texte {
+    background-color: rgb(255, 255, 255);
+    width: 520px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 0px 10px 10px 25px;
+}
+
+/*h2*/
+.night-texte h2 {
+    text-align: start;
+}
+
+/*h3*/
+.night-texte h3 {
+    color: black;
+    line-height: 48px;
+    margin-top: 0px;
+}
+
+/*p*/
+.night-texte p {
+    font-family: "REM", sans-serif;
+}
+
+/*trait*/
+.night h3:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: rgb(231, 106, 33);
+}
+
+/*rond*/
+.night-texte .rond {
+    border: 1px solid #000000;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    margin-top: 17px;
+}
+
+/*icone*/
+.night-texte .rond i {
+    color: rgb(231, 106, 33);
+    margin: 10px;
+}
+
+/*texte*/
+.night-boite-texte {
+    margin-left: 20px;
+}
+
+/*link*/
+.night-texte a {
+    color: rgb(231, 106, 33);
+    text-decoration: none;
+    font-family: "Anta", sans-serif;
+}
+
+/**************MORBI**************/
+
+/*image-arriere*/
+.morbi {
+    background-image: url(./images/red-blue.jpg);
+    background-size: cover;
+    height: 515px;
+    color: #ffffff;
+}
+
+/*sombre*/
+.morbi .sombre {
+    background-color: #00000045;
+    height: 515px;
+}
+
+/*titre*/
+.morbi h2 {
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+    padding-top: 60px;
+}
+
+/*titre-trait*/
+.morbi h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: rgb(231, 106, 33);
+    margin: 10px auto;
+}
+
+/*taille-article*/
+.morbi article {
+    margin: 0px 20px;
+}
+
+/*bulle*/
+.morbi .bulle {
+    background-color: #00000057;
+    border-radius: 10px;
+    position:relative;
+}
+
+/*texte-bylle*/
+.morbi .bulle p {
+    margin: 0px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "REM", sans-serif;
+}
+
+/*triangle*/
+.bulle:after {
+    content:"";                        
+    display:block;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid #00000057;
+    position:absolute;
+    bottom: -14px;
+    margin-left: 40px;
+}
+
+/*pp*/
+.morbi .pp {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+/*margin-utilisateur*/
+.morbi .row {
+    margin-top: 25px;
+}
+
+/*nom-utilisateur*/
+.morbi .colone {
+    justify-content: center;
+    margin-left: 7px;
+}
+
+/*margin-texte-utilisateur*/
+.morbi .colone h4, .morbi .colone p {
+    margin: 0px;
+}
+
+/*boutton*/
+.morbi .boutton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 106, 33);
+    border: none;
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    width: 240px;
+    height: 30px;
+    margin: 40px auto;
+}
+
+/****************************FOOTER**************************/
+
+/*arriere-plan*/
+footer {
+    background-color: #1f1d1c;
+    height: 670px;
+    font-family: "REM", sans-serif;
+}
+
+/*titre*/
+footer h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+/*ul-nav*/
+footer nav ul {
+    padding: 0px;
+}
+
+/*liste-nav*/
+footer nav li {
+    list-style: none;
+    color: rgb(231, 106, 33);
+    font-family: "Anta", sans-serif;
+    margin: 17px;
+    font-size: 13px;
+}
+
+/*a-nav*/
+footer nav li a {
+    color: rgb(231, 106, 33);
+}
+
+/*les-4-elements*/
+.contenue {
+    margin-top: 30px;
+    border-top: 1px solid rgb(76, 76, 76);
+    justify-content: space-between;
+}
+
+/*element*/
+.element {
+    width: 250px;
+}
+
+/*h6*/
+.contenue h6 {
+    color: #fff;
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+}
+
+/*trait-footer*/
+.contenue .trait {
+    background-color: rgb(76, 76, 76);
+    width: 100%;
+    height: 1px;
+}
+
+/***GRAP***/
+footer .grap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/***ELEMENT-1***/
+
+/*couleur-texte*/
+footer .un {
+    color: #fff;
+}
+
+/*trait*/
+footer .un p {
+    border-top: 1px solid rgb(76, 76, 76);    
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+/*pas-premier*/
+footer .un p:first-of-type {
+    border-top: none;
+}
+
+footer .reseaux {
+    margin-top: 20px;
+}
+
+/*carre*/
+footer .un .carre {
+    background-color: rgb(76, 76, 76);
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+/*icones-reseaux*/
+footer .un .carre i {
+    font-size: 22px;
+}
+
+/*icone-marge*/
+footer .un .marge {
+    margin-right: 10px;
+}
+
+/***ELEMENT-2***/
+
+/*couleur-texte*/
+footer .deux {
+    color: #fff;
+}
+
+/*textearea*/
+
+/***/
+
+/*boutton*/
+footer .boutton {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 106, 33);
+    border: none;
+    font-family: "Anta", sans-serif;
+    margin-top: 35px;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 30px;
+}
+
+/***ELEMENT-3***/
+
+/*couleur-texte*/
+footer .trois {
+    color: rgb(231, 106, 33);
+}
+
+footer .trois p {
+    border-top: 1px solid rgb(76, 76, 76); 
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+/*pas-premier*/
+footer .trois p:first-of-type {
+    border-top: none;
+}
+
+/*ELEMENT-4*/
+
+/*grid*/
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+  
+.grid img {
+    flex:1;
+    min-width:25%;
+}
+
+/***FROM***/
+footer .from {
+    background-color: rgb(52, 52, 52);
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    margin-top: 70px;
+}
